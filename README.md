@@ -1,3 +1,6 @@
+
+
+
 # 🔥 FireSync: Harmonization of MODIS and VIIRS Hot Spots
 
 ![NASA Space Apps Challenge 2026](https://img.shields.io/badge/NASA_Space_Apps-2026-0B3D91?style=for-the-badge&logo=nasa)
@@ -75,3 +78,59 @@ We utilize NASA Earth observation data to power our harmonization engine:
    ```bash
    git clone [https://github.com/your-repo/firesync-phoenix007.git](https://github.com/your-repo/firesync-phoenix007.git)
    cd firesync-phoenix007
+
+```
+
+2. **Backend Setup:**
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+```
+
+
+3. **Environment Variables:**
+Create a `.env` file in the root directory and add your keys:
+```env
+FIRMS_API_KEY=your_api_key_here
+
+```
+
+
+4. **Run the Application:**
+```bash
+uvicorn main:app --reload
+
+```
+
+
+
+---
+
+## 👥 Team Phoenix007
+
+We are **Team Phoenix007**, an innovative AI team from Bangladesh participating in the 2026 NASA Space Apps Challenge.
+
+* **Saobia Islam** - Team Leader
+
+
+* **Mashrur Rahman** - Software Engineer
+
+
+* **Ahnuf Karim Chowdhury** - Data Scientist
+
+
+* **Chowdhury Ajmayeen Adil** - Machine Learning Engineer
+
+
+* **Nahid Asef** - Frontend Developer
+
+
+
+---
+
+*Built with ❤️ for the 2026 NASA Space Apps Challenge.*
+
+
